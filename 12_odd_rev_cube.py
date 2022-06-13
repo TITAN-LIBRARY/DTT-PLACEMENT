@@ -20,4 +20,4 @@ n = int(input("Enter the Number: "))
 if n % 2 == 0:
     print(n**(1/3))
 else:
-    print(rev_num)
+    print(rev_num(n))
